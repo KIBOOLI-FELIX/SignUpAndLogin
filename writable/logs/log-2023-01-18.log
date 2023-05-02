@@ -1,0 +1,307 @@
+CRITICAL - 2023-01-18 12:36:57 --> Attempt to read property "userName" on bool
+in APPPATH\Views\dashboard.php on line 3.
+ 1 APPPATH\Views\dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "userName" on bool', 'APPPATH\\Views\\dashboard.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(17): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 12:38:45 --> Attempt to read property "userName" on bool
+in APPPATH\Views\dashboard.php on line 3.
+ 1 APPPATH\Views\dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "userName" on bool', 'APPPATH\\Views\\dashboard.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(17): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 12:40:59 --> Attempt to read property "userName" on bool
+in APPPATH\Views\dashboard.php on line 3.
+ 1 APPPATH\Views\dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "userName" on bool', 'APPPATH\\Views\\dashboard.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(17): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 12:41:06 --> Attempt to read property "userName" on bool
+in APPPATH\Views\dashboard.php on line 3.
+ 1 APPPATH\Views\dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "userName" on bool', 'APPPATH\\Views\\dashboard.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(17): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 12:42:57 --> Attempt to read property "userName" on bool
+in APPPATH\Views\dashboard.php on line 3.
+ 1 APPPATH\Views\dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "userName" on bool', 'APPPATH\\Views\\dashboard.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(17): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-18 12:43:03 --> Attempt to read property "userName" on bool
+in APPPATH\Views\dashboard.php on line 3.
+ 1 APPPATH\Views\dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "userName" on bool', 'APPPATH\\Views\\dashboard.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(17): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 13:40:17 --> mysqli_sql_exception: Duplicate entry 'wasukira' for key 'userName' in C:\wamp64\www\university\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\university\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\wamp64\www\university\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\wamp64\www\university\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\wamp64\www\university\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\wamp64\www\university\app\Models\RegisterModel.php(14): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\university\app\Controllers\University.php(79): App\Models\RegisterModel->saveData(Array)
+#6 C:\wamp64\www\university\system\CodeIgniter.php(925): App\Controllers\University->register()
+#7 C:\wamp64\www\university\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+#8 C:\wamp64\www\university\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\university\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-18 13:40:17 --> Duplicate entry 'wasukira' for key 'userName'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `register` (`userName`, `userPassword`, `email`, `uniId`, `activationDate`) VALUES (\'wasukira\', \'$2y$10$MonqYhetJ71Se4gkHTRA2uE6xZk8Kl9W877zkwKCY7yzgeGxBmVLe\', \'jajadev@gmail.com\', \'383ce6a4eb14d9ae92ae58bc6baac17f\', \'2023-01-18 01:40:17\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `register` (`userName`, `userPassword`, `email`, `uniId`, `activationDate`) VALUES (\'wasukira\', \'$2y$10$MonqYhetJ71Se4gkHTRA2uE6xZk8Kl9W877zkwKCY7yzgeGxBmVLe\', \'jajadev@gmail.com\', \'383ce6a4eb14d9ae92ae58bc6baac17f\', \'2023-01-18 01:40:17\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `register` (`userName`, `userPassword`, `email`, `uniId`, `activationDate`) VALUES (\'wasukira\', \'$2y$10$MonqYhetJ71Se4gkHTRA2uE6xZk8Kl9W877zkwKCY7yzgeGxBmVLe\', \'jajadev@gmail.com\', \'383ce6a4eb14d9ae92ae58bc6baac17f\', \'2023-01-18 01:40:17\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `register` (`userName`, `userPassword`, `email`, `uniId`, `activationDate`) VALUES (:userName:, :userPassword:, :email:, :uniId:, :activationDate:)', [...], false)
+ 5 APPPATH\Models\RegisterModel.php(14): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\University.php(79): App\Models\RegisterModel->saveData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\University->register()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 13:40:57 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: No such host is known.  in C:\wamp64\www\university\system\Email\Email.php:1864
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\wamp64\\www\\u...', 1864)
+#1 C:\wamp64\www\university\system\Email\Email.php(1864): fsockopen('tls://smtp.gmai...', 465, NULL, NULL, 60)
+#2 C:\wamp64\www\university\system\Email\Email.php(1778): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\wamp64\www\university\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\wamp64\www\university\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\wamp64\www\university\app\Controllers\University.php(90): CodeIgniter\Email\Email->send()
+#6 C:\wamp64\www\university\system\CodeIgniter.php(925): App\Controllers\University->register()
+#7 C:\wamp64\www\university\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+#8 C:\wamp64\www\university\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\university\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-18 13:40:57 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-18 13:40:57 --> 
+ERROR - 2023-01-18 13:49:38 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: No such host is known.  in C:\wamp64\www\university\system\Email\Email.php:1864
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\wamp64\\www\\u...', 1864)
+#1 C:\wamp64\www\university\system\Email\Email.php(1864): fsockopen('tls://smtp.gmai...', 465, NULL, NULL, 60)
+#2 C:\wamp64\www\university\system\Email\Email.php(1778): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\wamp64\www\university\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\wamp64\www\university\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\wamp64\www\university\app\Controllers\University.php(90): CodeIgniter\Email\Email->send()
+#6 C:\wamp64\www\university\system\CodeIgniter.php(925): App\Controllers\University->register()
+#7 C:\wamp64\www\university\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+#8 C:\wamp64\www\university\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\university\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-18 13:49:38 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-18 13:49:38 --> 
+ERROR - 2023-01-18 13:56:36 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: No such host is known.  in C:\wamp64\www\university\system\Email\Email.php:1864
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\wamp64\\www\\u...', 1864)
+#1 C:\wamp64\www\university\system\Email\Email.php(1864): fsockopen('tls://smtp.gmai...', 465, NULL, NULL, 60)
+#2 C:\wamp64\www\university\system\Email\Email.php(1778): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\wamp64\www\university\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\wamp64\www\university\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\wamp64\www\university\app\Controllers\University.php(90): CodeIgniter\Email\Email->send()
+#6 C:\wamp64\www\university\system\CodeIgniter.php(925): App\Controllers\University->register()
+#7 C:\wamp64\www\university\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+#8 C:\wamp64\www\university\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\university\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-18 13:56:36 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-18 13:56:36 --> 
+ERROR - 2023-01-18 13:59:38 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: No such host is known.  in C:\wamp64\www\university\system\Email\Email.php:1864
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\wamp64\\www\\u...', 1864)
+#1 C:\wamp64\www\university\system\Email\Email.php(1864): fsockopen('tls://smtp.gmai...', 465, NULL, NULL, 60)
+#2 C:\wamp64\www\university\system\Email\Email.php(1778): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\wamp64\www\university\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\wamp64\www\university\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\wamp64\www\university\app\Controllers\University.php(90): CodeIgniter\Email\Email->send()
+#6 C:\wamp64\www\university\system\CodeIgniter.php(925): App\Controllers\University->register()
+#7 C:\wamp64\www\university\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+#8 C:\wamp64\www\university\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\university\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-18 13:59:38 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-18 13:59:38 --> 
+ERROR - 2023-01-18 14:01:56 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: No such host is known.  in C:\wamp64\www\university\system\Email\Email.php:1864
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\wamp64\\www\\u...', 1864)
+#1 C:\wamp64\www\university\system\Email\Email.php(1864): fsockopen('tls://smtp.gmai...', 465, NULL, NULL, 60)
+#2 C:\wamp64\www\university\system\Email\Email.php(1778): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\wamp64\www\university\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\wamp64\www\university\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\wamp64\www\university\app\Controllers\University.php(90): CodeIgniter\Email\Email->send()
+#6 C:\wamp64\www\university\system\CodeIgniter.php(925): App\Controllers\University->register()
+#7 C:\wamp64\www\university\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+#8 C:\wamp64\www\university\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\university\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-18 14:01:56 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-18 14:01:56 --> 
+ERROR - 2023-01-18 14:07:09 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: No such host is known.  in C:\wamp64\www\university\system\Email\Email.php:1864
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\wamp64\\www\\u...', 1864)
+#1 C:\wamp64\www\university\system\Email\Email.php(1864): fsockopen('tls://smtp.gmai...', 465, NULL, NULL, 60)
+#2 C:\wamp64\www\university\system\Email\Email.php(1778): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\wamp64\www\university\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\wamp64\www\university\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\wamp64\www\university\app\Controllers\University.php(90): CodeIgniter\Email\Email->send()
+#6 C:\wamp64\www\university\system\CodeIgniter.php(925): App\Controllers\University->register()
+#7 C:\wamp64\www\university\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+#8 C:\wamp64\www\university\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\university\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-18 14:07:09 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-18 14:07:09 --> 
+CRITICAL - 2023-01-18 14:07:15 --> Call to a member function table() on null
+in APPPATH\Models\RegisterModel.php on line 25.
+ 1 APPPATH\Controllers\University.php(112): App\Models\RegisterModel->verifyId('b034217120a47345872c973d1475c763')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\University->activate('b034217120a47345872c973d1475c763')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 14:10:09 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: No such host is known.  in C:\wamp64\www\university\system\Email\Email.php:1864
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\wamp64\\www\\u...', 1864)
+#1 C:\wamp64\www\university\system\Email\Email.php(1864): fsockopen('tls://smtp.gmai...', 465, NULL, NULL, 60)
+#2 C:\wamp64\www\university\system\Email\Email.php(1778): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\wamp64\www\university\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\wamp64\www\university\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\wamp64\www\university\app\Controllers\University.php(90): CodeIgniter\Email\Email->send()
+#6 C:\wamp64\www\university\system\CodeIgniter.php(925): App\Controllers\University->register()
+#7 C:\wamp64\www\university\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+#8 C:\wamp64\www\university\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\university\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-18 14:10:09 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-18 14:10:09 --> 
+ERROR - 2023-01-18 14:13:12 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: No such host is known.  in C:\wamp64\www\university\system\Email\Email.php:1864
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\wamp64\\www\\u...', 1864)
+#1 C:\wamp64\www\university\system\Email\Email.php(1864): fsockopen('tls://smtp.gmai...', 465, NULL, NULL, 60)
+#2 C:\wamp64\www\university\system\Email\Email.php(1778): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\wamp64\www\university\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\wamp64\www\university\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\wamp64\www\university\app\Controllers\University.php(90): CodeIgniter\Email\Email->send()
+#6 C:\wamp64\www\university\system\CodeIgniter.php(925): App\Controllers\University->register()
+#7 C:\wamp64\www\university\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+#8 C:\wamp64\www\university\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\university\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-18 14:13:12 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-18 14:13:12 --> 
+CRITICAL - 2023-01-18 14:16:30 --> Call to a member function countAll() on null
+in APPPATH\Models\RegisterModel.php on line 30.
+ 1 APPPATH\Controllers\University.php(112): App\Models\RegisterModel->verifyId('4ea37fa4e813a1c529524a9eca4a2148')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\University->activate('4ea37fa4e813a1c529524a9eca4a2148')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 14:17:53 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: No such host is known.  in C:\wamp64\www\university\system\Email\Email.php:1864
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\wamp64\\www\\u...', 1864)
+#1 C:\wamp64\www\university\system\Email\Email.php(1864): fsockopen('tls://smtp.gmai...', 465, NULL, NULL, 60)
+#2 C:\wamp64\www\university\system\Email\Email.php(1778): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\wamp64\www\university\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\wamp64\www\university\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\wamp64\www\university\app\Controllers\University.php(90): CodeIgniter\Email\Email->send()
+#6 C:\wamp64\www\university\system\CodeIgniter.php(925): App\Controllers\University->register()
+#7 C:\wamp64\www\university\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+#8 C:\wamp64\www\university\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\university\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-18 14:17:53 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-18 14:17:53 --> 
+CRITICAL - 2023-01-18 14:17:59 --> Call to a member function affectedRows() on null
+in APPPATH\Models\RegisterModel.php on line 45.
+ 1 APPPATH\Controllers\University.php(118): App\Models\RegisterModel->updateStatus('8a8cf5f3ac7dc35b6619d1b4e5927a09')
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\University->activate('8a8cf5f3ac7dc35b6619d1b4e5927a09')
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-18 14:20:04 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: No such host is known.  in C:\wamp64\www\university\system\Email\Email.php:1864
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\wamp64\\www\\u...', 1864)
+#1 C:\wamp64\www\university\system\Email\Email.php(1864): fsockopen('tls://smtp.gmai...', 465, NULL, NULL, 60)
+#2 C:\wamp64\www\university\system\Email\Email.php(1778): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\wamp64\www\university\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\wamp64\www\university\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\wamp64\www\university\app\Controllers\University.php(90): CodeIgniter\Email\Email->send()
+#6 C:\wamp64\www\university\system\CodeIgniter.php(925): App\Controllers\University->register()
+#7 C:\wamp64\www\university\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+#8 C:\wamp64\www\university\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\university\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-18 14:20:04 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-18 14:20:04 --> 
+ERROR - 2023-01-18 14:24:15 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: No such host is known.  in C:\wamp64\www\university\system\Email\Email.php:1864
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\wamp64\\www\\u...', 1864)
+#1 C:\wamp64\www\university\system\Email\Email.php(1864): fsockopen('tls://smtp.gmai...', 465, NULL, NULL, 60)
+#2 C:\wamp64\www\university\system\Email\Email.php(1778): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\wamp64\www\university\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\wamp64\www\university\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\wamp64\www\university\app\Controllers\University.php(90): CodeIgniter\Email\Email->send()
+#6 C:\wamp64\www\university\system\CodeIgniter.php(925): App\Controllers\University->register()
+#7 C:\wamp64\www\university\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+#8 C:\wamp64\www\university\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\university\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-18 14:24:15 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-18 14:24:15 --> 
+ERROR - 2023-01-18 14:28:32 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: No such host is known.  in C:\wamp64\www\university\system\Email\Email.php:1864
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\wamp64\\www\\u...', 1864)
+#1 C:\wamp64\www\university\system\Email\Email.php(1864): fsockopen('tls://smtp.gmai...', 465, NULL, NULL, 60)
+#2 C:\wamp64\www\university\system\Email\Email.php(1778): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\wamp64\www\university\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\wamp64\www\university\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\wamp64\www\university\app\Controllers\University.php(90): CodeIgniter\Email\Email->send()
+#6 C:\wamp64\www\university\system\CodeIgniter.php(925): App\Controllers\University->register()
+#7 C:\wamp64\www\university\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+#8 C:\wamp64\www\university\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\university\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-18 14:28:32 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-18 14:28:32 --> 
+ERROR - 2023-01-18 14:32:14 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: No such host is known.  in C:\wamp64\www\university\system\Email\Email.php:1864
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\wamp64\\www\\u...', 1864)
+#1 C:\wamp64\www\university\system\Email\Email.php(1864): fsockopen('tls://smtp.gmai...', 465, NULL, NULL, 60)
+#2 C:\wamp64\www\university\system\Email\Email.php(1778): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\wamp64\www\university\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\wamp64\www\university\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\wamp64\www\university\app\Controllers\University.php(90): CodeIgniter\Email\Email->send()
+#6 C:\wamp64\www\university\system\CodeIgniter.php(925): App\Controllers\University->register()
+#7 C:\wamp64\www\university\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+#8 C:\wamp64\www\university\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\university\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-18 14:32:14 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-18 14:32:14 --> 

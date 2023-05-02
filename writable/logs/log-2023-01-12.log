@@ -1,0 +1,78 @@
+ERROR - 2023-01-12 06:19:22 --> mysqli_sql_exception: Duplicate entry 'felix' for key 'userName' in C:\wamp64\www\university\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\university\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `re...', 0)
+#1 C:\wamp64\www\university\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `re...')
+#2 C:\wamp64\www\university\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `re...')
+#3 C:\wamp64\www\university\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `re...', Array, false)
+#4 C:\wamp64\www\university\app\Models\RegisterModel.php(9): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\wamp64\www\university\app\Controllers\University.php(76): App\Models\RegisterModel->saveData(Array)
+#6 C:\wamp64\www\university\system\CodeIgniter.php(925): App\Controllers\University->register()
+#7 C:\wamp64\www\university\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+#8 C:\wamp64\www\university\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\university\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-12 06:19:22 --> Duplicate entry 'felix' for key 'userName'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `register` (`userName`, `userPassword`, `email`, `uniId`, `activationDate`) VALUES (\'felix\', \'$2y$10$JmkqDxO8Jr8tcS5sI4TE.OoQY7P0Ptvd/cwyNUPK9BO8eHH1U3xXu\', \'wasukira5@gmail.com\', \'2d2a5e47927f419e3e521b151c0e88d2\', \'2023-01-12 06:19:22\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `register` (`userName`, `userPassword`, `email`, `uniId`, `activationDate`) VALUES (\'felix\', \'$2y$10$JmkqDxO8Jr8tcS5sI4TE.OoQY7P0Ptvd/cwyNUPK9BO8eHH1U3xXu\', \'wasukira5@gmail.com\', \'2d2a5e47927f419e3e521b151c0e88d2\', \'2023-01-12 06:19:22\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `register` (`userName`, `userPassword`, `email`, `uniId`, `activationDate`) VALUES (\'felix\', \'$2y$10$JmkqDxO8Jr8tcS5sI4TE.OoQY7P0Ptvd/cwyNUPK9BO8eHH1U3xXu\', \'wasukira5@gmail.com\', \'2d2a5e47927f419e3e521b151c0e88d2\', \'2023-01-12 06:19:22\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `register` (`userName`, `userPassword`, `email`, `uniId`, `activationDate`) VALUES (:userName:, :userPassword:, :email:, :uniId:, :activationDate:)', [...], false)
+ 5 APPPATH\Models\RegisterModel.php(9): CodeIgniter\Database\BaseBuilder->insert([...])
+ 6 APPPATH\Controllers\University.php(76): App\Models\RegisterModel->saveData([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\University->register()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-12 06:23:18 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-12 06:23:18 --> 220 smtp.gmail.com ESMTP d20-20020a170906305400b007c0d64c1886sm7324713ejd.33 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [41.210.154.27]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials d20-20020a170906305400b007c0d64c1886sm7324713ejd.33 - gsmtp
+
+ERROR - 2023-01-12 06:30:49 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-12 06:30:49 --> 220 smtp.gmail.com ESMTP bt16-20020a0564020a5000b00482e0c55e2bsm7092211edb.93 - gsmtp
+
+hello: 250-smtp.gmail.com at your service, [41.210.141.144]
+250-SIZE 35882577
+250-8BITMIME
+250-AUTH LOGIN PLAIN XOAUTH2 PLAIN-CLIENTTOKEN OAUTHBEARER XOAUTH
+250-ENHANCEDSTATUSCODES
+250-PIPELINING
+250-CHUNKING
+250 SMTPUTF8
+
+Failed to authenticate password. Error: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials bt16-20020a0564020a5000b00482e0c55e2bsm7092211edb.93 - gsmtp
+
+ERROR - 2023-01-12 12:56:15 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-12 12:56:15 --> 220-premium33.web-hosting.com ESMTP Exim 4.95 #2 Thu, 12 Jan 2023 13:55:51 -0500 
+220-We do not authorize the use of this system to transport unsolicited, 
+220 and/or bulk e-mail.
+
+hello: 250-premium33.web-hosting.com Hello hddc.n1.ips.mtn.co.ug [41.210.141.220]
+250-SIZE 52428800
+250-8BITMIME
+250-PIPELINING
+250-PIPE_CONNECT
+250-AUTH PLAIN LOGIN
+250 HELP
+
+from: 250 OK
+
+to: 550-"Your IP: 41.210.141.220 : Your domain gmail.com is not allowed in header
+550 From"
+
+The following SMTP error was encountered: 550-"Your IP: 41.210.141.220 : Your domain gmail.com is not allowed in header
+550 From"
+
+quit: 221 premium33.web-hosting.com closing connection
+

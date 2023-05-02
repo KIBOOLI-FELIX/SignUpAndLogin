@@ -1,0 +1,96 @@
+CRITICAL - 2023-01-28 13:39:50 --> Class "App\Models\AutoModel" not found
+in APPPATH\Controllers\AutoController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\AutoController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-28 13:39:57 --> Class "App\Models\AutoModel" not found
+in APPPATH\Controllers\AutoController.php on line 8.
+ 1 SYSTEMPATH\CodeIgniter.php(887): App\Controllers\AutoController->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(471): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-28 13:45:28 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(233): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\AutoController.php(12): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\AutoController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-28 13:46:58 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(233): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\AutoController.php(12): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\AutoController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-28 13:47:12 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(233): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(586): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\AutoController.php(12): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\AutoController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoController))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-28 13:53:11 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\AutoController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\AutoController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-28 13:53:48 --> Undefined array key "fullname"
+in APPPATH\Controllers\AutoController.php on line 15.
+ 1 APPPATH\Controllers\AutoController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fullname"', 'APPPATH\\Controllers\\AutoController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\AutoController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-28 13:54:35 --> Undefined array key "fullname"
+in APPPATH\Controllers\AutoController.php on line 15.
+ 1 APPPATH\Controllers\AutoController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fullname"', 'APPPATH\\Controllers\\AutoController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\AutoController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-28 13:55:16 --> Array to string conversion
+in APPPATH\Controllers\AutoController.php on line 15.
+ 1 APPPATH\Controllers\AutoController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\AutoController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\AutoController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-28 13:55:49 --> Undefined array key "fullname"
+in APPPATH\Controllers\AutoController.php on line 15.
+ 1 APPPATH\Controllers\AutoController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fullname"', 'APPPATH\\Controllers\\AutoController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\AutoController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-28 13:59:38 --> Undefined array key 2
+in APPPATH\Controllers\AutoController.php on line 15.
+ 1 APPPATH\Controllers\AutoController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key 2', 'APPPATH\\Controllers\\AutoController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\AutoController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-28 14:00:36 --> Cannot use object of type stdClass as array
+in APPPATH\Controllers\AutoController.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\AutoController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoController))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-28 14:01:35 --> Undefined property: stdClass::$fullname
+in APPPATH\Controllers\AutoController.php on line 15.
+ 1 APPPATH\Controllers\AutoController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$fullname', 'APPPATH\\Controllers\\AutoController.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\AutoController->index()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AutoController))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

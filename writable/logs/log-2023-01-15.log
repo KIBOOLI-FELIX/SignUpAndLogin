@@ -1,0 +1,95 @@
+CRITICAL - 2023-01-15 04:03:53 --> Call to a member function table() on null
+in APPPATH\Models\LoginModel.php on line 32.
+ 1 APPPATH\Controllers\University.php(188): App\Models\LoginModel->saveLoginInfo([...])
+ 2 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\University->login()
+ 3 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+ 4 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 04:06:13 --> Allowed fields must be specified for model: App\Models\LoginModel
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\LoginModel')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Models\LoginModel.php(33): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\University.php(188): App\Models\LoginModel->saveLoginInfo([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\University->login()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 04:09:22 --> Allowed fields must be specified for model: App\Models\LoginModel
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\LoginModel')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Models\LoginModel.php(33): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\University.php(188): App\Models\LoginModel->saveLoginInfo([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\University->login()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 04:10:15 --> Allowed fields must be specified for model: App\Models\LoginModel
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\LoginModel')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Models\LoginModel.php(33): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\University.php(188): App\Models\LoginModel->saveLoginInfo([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\University->login()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 04:17:25 --> Allowed fields must be specified for model: App\Models\LoginModel
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\LoginModel')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Models\LoginModel.php(33): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\University.php(188): App\Models\LoginModel->saveLoginInfo([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\University->login()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 04:21:09 --> Allowed fields must be specified for model: App\Models\LoginModel
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\LoginModel')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Models\LoginModel.php(33): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\University.php(188): App\Models\LoginModel->saveLoginInfo([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\University->login()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 04:31:59 --> Allowed fields must be specified for model: App\Models\LoginModel
+in SYSTEMPATH\BaseModel.php on line 1162.
+ 1 SYSTEMPATH\BaseModel.php(1162): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\LoginModel')
+ 2 SYSTEMPATH\BaseModel.php(725): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Models\LoginModel.php(33): CodeIgniter\Model->insert([...])
+ 5 APPPATH\Controllers\University.php(188): App\Models\LoginModel->saveLoginInfo([...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\University->login()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 04:33:52 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(611): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(296): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(750): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(695): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Models\LoginModel.php(39): CodeIgniter\Model->insert([...])
+ 6 APPPATH\Controllers\University.php(188): App\Models\LoginModel->saveLoginInfo([...])
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\University->login()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-15 13:47:47 --> count(): Argument #1 ($value) must be of type Countable|array, bool given
+in APPPATH\Views\login_activity.php on line 8.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('login_activity', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(32): view('login_activity', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard->login_activity()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

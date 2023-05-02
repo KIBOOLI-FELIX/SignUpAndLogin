@@ -1,0 +1,70 @@
+ERROR - 2023-01-14 11:55:24 --> mysqli_sql_exception: Table 'school.users' doesn't exist in C:\wamp64\www\university\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\university\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\wamp64\www\university\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\wamp64\www\university\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\wamp64\www\university\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\wamp64\www\university\app\Models\DashboardModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\wamp64\www\university\app\Controllers\Dashboard.php(15): App\Models\DashboardModel->getUserLogged('4811f91b9e306e6...')
+#6 C:\wamp64\www\university\system\CodeIgniter.php(925): App\Controllers\Dashboard->index()
+#7 C:\wamp64\www\university\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\wamp64\www\university\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\university\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2023-01-14 11:55:24 --> Table 'school.users' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `users`
+WHERE `uniId` = \'4811f91b9e306e6c193620e8c036b36a\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `users`
+WHERE `uniId` = \'4811f91b9e306e6c193620e8c036b36a\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `users`
+WHERE `uniId` = \'4811f91b9e306e6c193620e8c036b36a\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `uniId` = :uniId:', [...], false)
+ 5 APPPATH\Models\DashboardModel.php(9): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Dashboard.php(15): App\Models\DashboardModel->getUserLogged('4811f91b9e306e6c193620e8c036b36a')
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 12:05:58 --> Undefined property: stdClass::$username
+in APPPATH\Views\dashboard.php on line 3.
+ 1 APPPATH\Views\dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$username', 'APPPATH\\Views\\dashboard.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(17): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-14 13:14:24 --> Attempt to read property "userName" on bool
+in APPPATH\Views\dashboard.php on line 3.
+ 1 APPPATH\Views\dashboard.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "userName" on bool', 'APPPATH\\Views\\dashboard.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(17): view('dashboard', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-01-14 13:16:40 --> Email: sendWithSmtp throwed ErrorException: fsockopen(): php_network_getaddresses: getaddrinfo for smtp.gmail.com failed: No such host is known.  in C:\wamp64\www\university\system\Email\Email.php:1864
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fsockopen(): ph...', 'C:\\wamp64\\www\\u...', 1864)
+#1 C:\wamp64\www\university\system\Email\Email.php(1864): fsockopen('tls://smtp.gmai...', 465, NULL, NULL, 60)
+#2 C:\wamp64\www\university\system\Email\Email.php(1778): CodeIgniter\Email\Email->SMTPConnect()
+#3 C:\wamp64\www\university\system\Email\Email.php(1663): CodeIgniter\Email\Email->sendWithSmtp()
+#4 C:\wamp64\www\university\system\Email\Email.php(1561): CodeIgniter\Email\Email->spoolEmail()
+#5 C:\wamp64\www\university\app\Controllers\University.php(90): CodeIgniter\Email\Email->send()
+#6 C:\wamp64\www\university\system\CodeIgniter.php(925): App\Controllers\University->register()
+#7 C:\wamp64\www\university\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\University))
+#8 C:\wamp64\www\university\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\university\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-01-14 13:16:40 --> Email: Unable to send email using SMTP. Your server might not be configured to send mail using this method.
+ERROR - 2023-01-14 13:16:40 --> 

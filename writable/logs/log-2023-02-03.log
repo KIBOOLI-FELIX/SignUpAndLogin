@@ -1,0 +1,35 @@
+CRITICAL - 2023-02-03 09:36:43 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+ 4 ROOTPATH\spark(98): CodeIgniter\CLI\Console->run()
+CRITICAL - 2023-02-03 09:37:32 --> syntax error, unexpected token "if"
+in APPPATH\Config\Routes.php on line 83.
+ 1 SYSTEMPATH\CodeIgniter.php(428): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 2 SYSTEMPATH\CodeIgniter.php(345): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CodeIgniter->run()
+ 4 ROOTPATH\spark(98): CodeIgniter\CLI\Console->run()
+ERROR - 2023-02-03 09:52:34 --> mysqli_sql_exception: Can't create database 'salvation'; database exists in C:\wamp64\www\university\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\wamp64\www\university\system\Database\MySQLi\Connection.php(292): mysqli->query('CREATE DATABASE...', 0)
+#1 C:\wamp64\www\university\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('CREATE DATABASE...')
+#2 C:\wamp64\www\university\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE DATABASE...')
+#3 C:\wamp64\www\university\system\Database\Forge.php(223): CodeIgniter\Database\BaseConnection->query('CREATE DATABASE...')
+#4 C:\wamp64\www\university\app\Models\Forge.php(12): CodeIgniter\Database\Forge->createDatabase('salvation')
+#5 C:\wamp64\www\university\app\Controllers\TestController.php(12): App\Models\Forge->forge()
+#6 C:\wamp64\www\university\system\CodeIgniter.php(925): App\Controllers\TestController->index()
+#7 C:\wamp64\www\university\system\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+#8 C:\wamp64\www\university\system\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\wamp64\www\university\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 C:\wamp64\www\university\system\Commands\Server\rewrite.php(47): require_once('C:\\wamp64\\www\\u...')
+#11 {main}
+CRITICAL - 2023-02-03 09:52:34 --> Unable to create the specified database.
+in SYSTEMPATH\Database\Forge.php on line 240.
+ 1 APPPATH\Models\Forge.php(12): CodeIgniter\Database\Forge->createDatabase('salvation')
+ 2 APPPATH\Controllers\TestController.php(12): App\Models\Forge->forge()
+ 3 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\TestController->index()
+ 4 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TestController))
+ 5 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

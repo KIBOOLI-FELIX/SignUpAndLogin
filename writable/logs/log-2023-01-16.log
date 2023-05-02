@@ -1,0 +1,45 @@
+CRITICAL - 2023-01-16 03:45:34 --> Too few arguments to function CodeIgniter\View\View::section(), 0 passed in C:\wamp64\www\university\app\Views\avatar.php on line 2 and exactly 1 expected
+in SYSTEMPATH\View\View.php on line 375.
+ 1 APPPATH\Views\avatar.php(2): CodeIgniter\View\View->section()
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\avatar.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('avatar', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(39): view('avatar')
+ 6 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard->avatarUpload()
+ 7 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 04:05:55 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Dashboard.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard->avatarUpload()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 04:12:01 --> finfo_file(C:\wamp64\tmp\phpBC02.tmp): Failed to open stream: No such file or directory
+in SYSTEMPATH\Files\File.php on line 115.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'finfo_file(C:\\wamp64\\tmp\\phpBC02.tmp): Failed to open stream: No such file or directory', 'SYSTEMPATH\\Files\\File.php', 115)
+ 2 SYSTEMPATH\Files\File.php(115): finfo_file(Object(finfo), 'C:\\wamp64\\tmp\\phpBC02.tmp')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(302): CodeIgniter\Files\File->getMimeType()
+ 4 SYSTEMPATH\HTTP\Files\UploadedFile.php(291): CodeIgniter\HTTP\Files\UploadedFile->guessExtension()
+ 5 SYSTEMPATH\Files\File.php(127): CodeIgniter\HTTP\Files\UploadedFile->getExtension()
+ 6 APPPATH\Controllers\Dashboard.php(44): CodeIgniter\Files\File->getRandomName()
+ 7 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard->avatarUpload()
+ 8 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 04:13:56 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Dashboard.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard->avatarUpload()
+ 2 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-01-16 05:09:40 --> Call to undefined function messageAlert()
+in APPPATH\Views\avatar.php on line 12.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1135): CodeIgniter\View\View->render('avatar', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(71): view('avatar', [])
+ 5 SYSTEMPATH\CodeIgniter.php(925): App\Controllers\Dashboard->avatarUpload()
+ 6 SYSTEMPATH\CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
